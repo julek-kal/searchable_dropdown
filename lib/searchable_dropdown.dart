@@ -625,7 +625,7 @@ class _SearchableDropdownState<T> extends State<SearchableDropdown<T>> {
           style: TextStyle(color: Colors.blueAccent, fontSize: 13)));
     });
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         labelOutput ?? SizedBox.shrink(),
         Stack(
